@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR START */
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.menu i {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+
+
+.navbar {
+    width: 100%;
+    color: white;
+    transition: all .4s;
+}
+
+.navbar ul a {
+    padding: 1rem 2rem;
+}
+
+/* NAVBAR END */
+
+/* HERO START */
+
+span {
+    color: #ffb20c;    
+}
+
+.hero {
+    min-height: 82vh;
+    background-image:linear-gradient(to right,#1e4f8e, #f1c3294b), url('imgs/hero1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.hero p {
+    color: #ffb20c;
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+}
+
+.hero h4 {
+    color: rgb(245, 163, 11);
+}
+
+.hero .flex {
+    justify-content: flex-start;
+}
+
+.hero-content {
+    width: 80%;
+}
+
+.hero-content span {
+    color: white;
+    float: right;
+}
+
+/* HERO END */
+
+/* LOG - IN START*/
+
+form {
+    background-color: #1e4f8e;
+    color: #000;
+    padding: 2rem;
+    width: 80%;
+    margin: 0rem auto;
+    border-radius: 1rem;
+}
+
+form .check {
+    padding: 5rem 2rem;
+}
+
+form p{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+form button {
+    margin: auto;
+    display: block;
+}
+
+form .btn-login {
+    color: #24418f;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: #ffb20c;
+    padding: 1.3rem 2rem;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-login-div {
+    padding: 2rem;
+}
+
+.container-login {
+    margin-right: 3%;
+    width: 27%;
+}
+
+.container-login .text, 
+.user-pass-input label,
+.create-account {
+    text-align: center;
+}
+
+.container-login p {
+    color: #ffb20c;
+    font-weight: bolder;
+}
+
+.container-login a  {
+    font-size: 12px;
+    padding: 0%;
+}
+
+.user-pass-input input {
+    height: 30px;
+    width: 99.5%;
+    border-radius: 5px;
+}
+
+.user-pass-input label {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/*LOG - IN END*/
+
+/* FOOTER START */
+
+.footer p {
+    padding: 2rem 0rem;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+/* FOOTER END */
+

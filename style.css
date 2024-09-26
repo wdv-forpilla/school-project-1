@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+:root {
+    --main: #ff6700;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR START */
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.menu i {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar .container {
+    min-height: 7rem;
+}
+
+.navbar {
+    width: 100%;
+    color: white;
+    background-color: white;
+}
+
+.navbar ul a {
+    padding: 1rem 2rem;
+}
+
+/* NAVBAR END */
+
+/* HERO START */
+
+span {
+    color: #ffb20c;
+}
+
+.flexs {
+    display: flex;
+    align-items: center;
+}
+
+.flexs h1 {
+    margin-right: 20%;
+}
+
+.hero {
+    min-height: 82vh;
+    background-image:linear-gradient(to right,#1e4f8e, #f1c3294b), url('imgs/hero1_2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.hero p {
+    color: #ffb20c;
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+}
+
+.hero h4 {
+    color: rgb(245, 163, 11);
+}
+
+.hero .flex01 {
+    justify-content: flex-start;
+}
+
+.hero-content {
+    width: 80%;
+}
+
+.hero-content span {
+    color: white;
+    float: right;
+}
+/* HERO END */
+
+
+/* FEATURES START */
+
+.features {
+    min-height: 100vh;
+    color: #333;
+}
+
+.features h4 {
+    font-weight: 500;
+}
+
+.features p {
+    color: #555;
+}
+
+.fc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+.features-1 {
+    height: 100%;
+}
+
+.features-2 {
+    background-image: url('imgs/f1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+/* FEATURES END */
+
+
+/* DETAILS START */
+
+.details {
+    margin-top: 5rem;
+}
+
+.details h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e4f8e;
+}
+/* DETAILS END */
+
+/*TABLE START*/
+
+
+.table-savings {
+    padding-top: 4rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.table-header-text {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.table-header {
+    color: #1e4f8e;
+    background-color: #ffb20c;
+    text-align: center;
+    padding: 3.8rem;
+}
+
+.table-header p {
+    color: white;
+}
+
+.table-head th {
+    border-top: 3px solid #1e4f8e;
+    background-color: #ffb20c;
+    color: white;
+}
+
+th {
+    padding: 2rem;
+    font-size: 2vh;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    font-size: 2vh;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ffb20c;
+}
+
+.products {
+    color: #1e4f8e;
+    font-weight: bolder;
+}
+
+.table-footer{
+    color: #ffb20c;
+    background-image:linear-gradient(to right,#1e4f8e, #0000006c), url('imgs/hero3_2.jpg');
+    background-color: #1e4f8e;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 3.8rem;
+}
+
+.table-footer p {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.table-footer button {
+    background-color: #ffb20c;
+    color: white;
+}
+
+
+/*TABLE END*/
+
+/* WHY US START */
+
+.center {
+    text-align: center ;
+}
+
+.container h2 {
+    padding-top: 5%;
+    color: #ffb20c;
+}
+
+.fc-content {
+    padding: 9%;
+    text-align: center;
+    position: relative;
+}
+
+.fc-content h4 {
+    color: #ffb20c;
+    background-color: #1e4f8e;
+    padding: 2%;
+    border-radius: 3px;
+}
+
+.fc-content p {
+    padding-top: 3.5%;
+    padding-bottom: 3.2%;
+}
+
+.whyus-footer-button {
+    text-align: center;
+}
+
+
+
+/* WHY US END */
+
+
+/* CONTACT US START */
+
+.contact {
+    min-height: 50vh;
+    background-image: linear-gradient(to right,#205192, #0000006c), url('imgs/hero4_2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact p {
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.contact .btn {
+    display: block;
+    margin: 0rem auto;
+}
+
+/* CONTACT US END */
+
+
+/* FOOTER START */
+
+.footer p {
+    padding: 2rem 0rem;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* FOOTER END */
+
+
+

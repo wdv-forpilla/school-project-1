@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/**/
+
+/* NAVBAR START */
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.menu i {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+
+
+/* NAVBAR END */
+
+form {
+    padding: 2rem;
+    width: 80%;
+    margin: 0rem auto;
+    border: #24418f 5px solid;
+    border-radius: 1rem;
+}
+
+form .check {
+    padding: 5rem 2rem;
+}
+
+form p{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.container-reg .text, 
+.user-pass-input label,
+.create-account {
+    text-align: center;
+}
+
+.container-reg p {
+    color: #ffb20c;
+    font-weight: bolder;
+}
+
+/*REGISTER FORM START*/
+
+.form {
+    padding: 3rem;
+}
+
+.form h4 {
+    text-align: center;
+    background-color: #24418f;
+    color: #ffb20c;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.account label {
+    display: inline-block;
+    padding: 1%;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #24418f;
+}
+
+.account input select {
+    display: block;
+}
+
+.information,
+.bank-userpass {
+   padding-bottom: 1.4%;
+}
+
+select {
+    padding: .2%;
+    border-radius: 4px;
+}
+
+
+.class input {
+    height: 15px;
+    display: inline;
+    padding: 0%;
+    margin-right: 2%;
+}
+
+.account-select,
+.class,
+.information,
+.bank-userpass,
+.bank-cp,
+.feedback {
+    background-color: #ffb20c;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.type,
+.class {
+    margin-bottom: 1%;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+}
+
+.information input{
+    margin: auto;
+    height: 30px;
+    width: 25%;
+}
+
+.bank-userpass input {
+    margin: auto;
+    height: 30px;
+    width: 25%;
+}
+
+.form sub {
+    color: #24418f;
+    text-align: center;
+    display: block;
+    padding: 3rem 2rem;
+    font-size: 1.3rem;
+}
+
+.form span {
+    color: #ffb20c;
+    font-weight: bolder;
+}
+
+.submit-button button {
+    margin: auto;
+    display: block;
+    color: #24418f;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: #ffb20c;
+    padding: 1.3rem 2rem;
+    font-weight: bold;
+    width: 10%;
+    cursor: pointer;
+}
+
+/*REGISTER FORM END*/
+
+/* FOOTER START */
+
+.footer p {
+    padding: 2rem 0rem;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+/* FOOTER END */
