@@ -4,10 +4,22 @@
     --main: #ff6700;
 }
 
+/* 
+#ffb20c 
+#1e4f8e
+
+#FF8F00
+#FFDB00
+*/
+
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     scroll-behavior: smooth;
+}
+
+.mobile-only {
+    display: none;
 }
 
 /* NAVBAR START */
@@ -304,4 +316,12 @@ td {
 /* FOOTER END */
 
 
+@media only screen and (max-width: 1196px) {
+    .desktop-only {
+        display: none !important;
+    }
 
+    .mobile-only {
+        display: block !important;
+    }
+}
